@@ -1,0 +1,7 @@
+ord\sid\filmservice\entities\Film.class
+ord\sid\filmservice\repository\CategoryRepository.class
+ord\sid\filmservice\web\FilmController.class
+ord\sid\filmservice\web\CategorieController.class
+ord\sid\filmservice\FilmServiceApplication.class
+ord\sid\filmservice\entities\Categorie.class
+ord\sid\filmservice\repository\FilmRepository.class
