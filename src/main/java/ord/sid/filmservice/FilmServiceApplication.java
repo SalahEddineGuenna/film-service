@@ -25,7 +25,7 @@ public class FilmServiceApplication {
     @Bean
     CommandLineRunner start(CategoryRepository categoryRepository, FilmRepository filmRepository){
         return args -> {
-            filmRepository.save(new Film(null, "Up", "film pour enfant", "john", new Date(), 2, "true", "photo"));
+            filmRepository.save(new Film(null, "Avengers:End Games", "+6ans", "john", new Date(), 2, "true", "photo"));
             filmRepository.save(new Film(null, "SpiderMan", "+6ans", "joe", new Date(), 1.45 , "true", "photo"));
             filmRepository.save(new Film(null, "Green-Mile", "pensionnaire centenaire", "Frank Darabont", new Date(), 1.56 , "true", "photo"));
             categoryRepository.save(new Categorie(null, "Action"));
